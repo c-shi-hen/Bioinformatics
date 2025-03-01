@@ -10,19 +10,28 @@ ID: 22022011312
 ## 目录结构
 
 ```
-└─hw1
-    ├─README.md
-    │ 
-    ├─note
-    │   ├─week1
-    │   |
-    |   ...
-    │
-    └─homework
-        ├─hw1.1
-        │  
-        │
-        ...
+├── README.md
+├── homework
+│   ├── hw1.2.mp4
+│   ├── hw2.1
+│   │   ├── README.md
+│   │   ├── file
+│   │   │   ├── README.md
+│   │   │   ├── bash_homework.zip
+│   │   │   ├── result.gtf
+│   │   │   ├── test.gtf
+│   │   │   ├── test_command.gtf
+│   │   │   └── test_command.gtfresult.gtf
+│   │   ├── hw.sh
+│   │   └── result.txt
+│   └── hw2.2
+│       ├── 1.gtf
+│       ├── README.md
+│       ├── hw.sh
+│       └── result.txt
+└── note
+    ├── week1.md
+    └── week2.md
 ```
 
 ## 关键链接
@@ -91,3 +100,4 @@ $$
     2x + 4y = leg
 \end{array}
 $$
+

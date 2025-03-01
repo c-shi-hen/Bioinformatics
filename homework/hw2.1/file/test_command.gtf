@@ -1,0 +1,8 @@
+chr_IV	ensembl	gene	1802	2953	.	+	.	gene_id "YDL248W"; gene_version "1";
+chr_IV	ensembl	transcript	802	2953	.	+	.	gene_id "YDL248W"; gene_version "1";
+chromosome_IV	ensembl	exon	1802	2953	.	+	.	gene_id "YDL248W"; gene_version "1";
+chromosome_IV	ensembl	CDS	1802	950	.	+	0	gene_id "YDL248W"; gene_version "1";
+chr_IV	ensembl	start_codon	1802	1804	.	+	0	gene_id "YDL248W"; gene_version "1";
+chromosome_IV	ensembl	stop_codon	2951	2953	.	+	0	gene_id "YDL248W"; gene_version "1";
+chromosome_IV	ensembl	gene	762	3836	.	+	.	gene_id "YDL247W-A"; gene_version "1";
+chr_IV	ensembl	transcript	3762	836	.	+	.	gene_id "YDL247W-A"; gene_version "1";
