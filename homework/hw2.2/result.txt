@@ -28,24 +28,34 @@ XI	ensembl	CDS	661442	663286	.	+	0	gene_id "YKR106W"; gene_version "1"; transcri
 
 
 ##show the number of each feature
-   6692 stop_codon
-   6700 start_codon
-   7050 CDS
-   7126 gene
-   7126 transcript
-   7553 exon
+    853 start_codon
+    853 stop_codon
+    886 gene
+    886 transcript
+    895 CDS
+    933 exon
 
 
 ##the two longest CDS sites not on IV chromosome
-12275
-14729
+12276
+14730
 
 
 ##the five longest genes on chromosome XV
-"YOR396W"; 5390
-"YOL081W"; 9236
-"YOL081W"; 9239
-"YOL081W"; 9239
-"YOL081W"; 9239
+"YOR142W-B"; 5269
+"YOR192C-B"; 5314
+"YOR343W-B"; 5314
+"YOR396W"; 5391
+"YOL081W"; 9240
 
 
+##the number of each column
+      1 24
+      5 2
+   2115 26
+   2116 16
+   4067 32
+   5010 18
+   8472 28
+   9932 30
+  10534 34
