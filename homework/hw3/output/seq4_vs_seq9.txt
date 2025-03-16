@@ -1,0 +1,85 @@
+seq4: 
+RSSSSTVRRYTVRPRTSLGSGSPLRTGSGSSYGASTSLSALGSSRSMVRRTSVSSTTYSRAFASAPMPYY
+seq9: 
+GAGRTSRASTVYLRGTLSSSPMPRSTPYTTSSSSASSFASSVLGARSSTSRGPRMRYTLRSSYSYVGVRS
+\n
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: ../input/seq9.fasta).
+           1 sequences; 70 total letters
+
+
+
+Query= 
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  unnamed protein product                                             18.9    0.003
+
+
+> unnamed protein product
+Length=70
+
+ Score = 18.9 bits (37),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 14/20 (70%), Gaps = 1/20 (5%)
+
+Query  50  RTSVSSTTYSRA-FASAPMP  68
+           RTS +ST Y R   +S+PMP
+Sbjct  4   RTSRASTVYLRGTLSSSPMP  23
+
+
+ Score = 12.7 bits (21),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 4/5 (80%), Positives = 5/5 (100%), Gaps = 0/5 (0%)
+
+Query  9   RYTVR  13
+           RYT+R
+Sbjct  56  RYTLR  60
+
+
+ Score = 10.0 bits (14),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 5/10 (50%), Positives = 7/10 (70%), Gaps = 0/10 (0%)
+
+Query  27  GSGSSYGAST  36
+           G+G +  AST
+Sbjct  1   GAGRTSRAST  10
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.116    0.309    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4096
+
+
+  Database: User specified sequence set (Input: ../input/seq9.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 70
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

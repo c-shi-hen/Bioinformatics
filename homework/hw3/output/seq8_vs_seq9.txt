@@ -1,0 +1,69 @@
+seq8: 
+TTSSAVSSTAPFSSSMTVYRGYTSGSSLSSSLSSSVRPARASARMRSGTTPLTSLRYRYGYRPSRRGVSG
+seq9: 
+GAGRTSRASTVYLRGTLSSSPMPRSTPYTTSSSSASSFASSVLGARSSTSRGPRMRYTLRSSYSYVGVRS
+\n
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: ../input/seq9.fasta).
+           1 sequences; 70 total letters
+
+
+
+Query= 
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  unnamed protein product                                              9.2    8.4  
+
+
+> unnamed protein product
+Length=70
+
+ Score =  9.2 bits (12),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 12/21 (57%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  22  YTSGSSLSSSLSSSVRPARAS  42
+           YT+ SS +SS +SSV  AR+S
+Sbjct  28  YTTSSSSASSFASSVLGARSS  48
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.116    0.309    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4096
+
+
+  Database: User specified sequence set (Input: ../input/seq9.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 70
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
